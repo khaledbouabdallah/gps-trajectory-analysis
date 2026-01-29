@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mobilitydb/mobilitydb:latest
+    container_name: mobilitydb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mobility
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
