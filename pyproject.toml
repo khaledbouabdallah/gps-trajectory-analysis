@@ -17,4 +17,7 @@ dependencies = [
     "pyproj>=3.6.0",
     "rtree>=1.2.0",
     "jupyterlab>=4.0.0",
+    "geoviews>=1.15.1",
+    "mapclassify>=2.8.1",
+    "stonesoup>=1.8",
 ]
